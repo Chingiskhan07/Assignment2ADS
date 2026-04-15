@@ -19,6 +19,8 @@ public class TransactionManager {
     public void showLast() {
         if (!history.isEmpty()) {
             System.out.println("Last: " + history.peek());
+        } else {
+            System.out.println("No transactions");
         }
     }
 }
